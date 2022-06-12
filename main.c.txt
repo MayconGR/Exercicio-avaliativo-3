@@ -20,4 +20,9 @@ int numElementos, maximo, minimo;
     scanf("%d", &vetor[i]);
   }
 
+  //Saída dos numeros do vetor:
+  printf("\nOs numeros escolhidos no vetor foram:\n");
+  for(int i=0; i<numElementos; i++){
+    printf("%d", vetor[i]);
+
 }
