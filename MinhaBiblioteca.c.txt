@@ -17,3 +17,14 @@ void numeros(int vetor[], int *maximo, int *minimo, int numElementos){
     *maximo = vetor[1];
     *minimo = vetor[0];
   }
+
+//Estrutura de repetição para as variaveis armazenarem o maior e o menor valor de um vetor:
+  for(int i = 2; i<numElementos; i++){
+    if(vetor[i] > *maximo){
+      *maximo = vetor[i];
+    }
+    if(vetor[i] < *minimo){
+      *minimo = vetor[i];
+    }
+  }
+}
