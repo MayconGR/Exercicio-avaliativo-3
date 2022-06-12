@@ -1,0 +1,4 @@
+#include <stdio.h>
+#include "MinhaBiblioteca.h"
+
+void numeros(int vetor[], int *maximo, int *minimo, int numElementos){
