@@ -1,0 +1,8 @@
+#ifndef MINHA_BIBLIOTECA_H
+#define MINHA_BIBLIOTECA_H
+
+//Declaração das variaveis no Arquivo de cabeçalho em uma função sem retorno
+
+void numeros(int vetor[], int *maximo, int *minimo, int numElementos);
+
+#endif
