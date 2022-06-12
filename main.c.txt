@@ -25,4 +25,11 @@ int numElementos, maximo, minimo;
   for(int i=0; i<numElementos; i++){
     printf("%d", vetor[i]);
 
+  //adição da vírgula na saída:
+    if((i+1) != numElementos){
+      printf(",");
+    }else{
+      printf(".\n");
+    } 
+
 }
