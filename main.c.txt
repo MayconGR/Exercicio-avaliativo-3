@@ -1,3 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "MinhaBiblioteca.h"
+
+int main(void) {
+
+  int numElementos, maximo, minimo;
+
+  //Solicitando ao usuário a quantidade de numeros de elementos que deseja colocar no vetor:
+  printf("Digite a quantidade de numeros para o vetor: ");
+  scanf("%d", &numElementos);
+
+  //Declaração da variavel "vetor", após a entrada do número de elementos:
+  int vetor[numElementos];
+
+  //Solicitando ao usuário os numeros que deseja colocar no vetor:
+  printf("\nDigite os numeros para o vetor abaixo:\n");
+
+}
