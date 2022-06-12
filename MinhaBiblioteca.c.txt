@@ -7,3 +7,13 @@ void numeros(int vetor[], int *maximo, int *minimo, int numElementos){
     *maximo = vetor[0];
     *minimo = *maximo;
   }
+
+//Lógica base para os dois primeiros elementos do vetor:
+  if(vetor[0] > vetor[1]){
+    *maximo = vetor[0];
+    *minimo = vetor[1];
+    
+  }else{
+    *maximo = vetor[1];
+    *minimo = vetor[0];
+  }
