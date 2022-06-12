@@ -4,7 +4,7 @@
 
 int main(void) {
 
-  int numElementos, maximo, minimo;
+int numElementos, maximo, minimo;
 
   //Solicitando ao usuário a quantidade de numeros de elementos que deseja colocar no vetor:
   printf("Digite a quantidade de numeros para o vetor: ");
@@ -15,5 +15,9 @@ int main(void) {
 
   //Solicitando ao usuário os numeros que deseja colocar no vetor:
   printf("\nDigite os numeros para o vetor abaixo:\n");
+
+  for(int i=0; i<numElementos; i++){
+    scanf("%d", &vetor[i]);
+  }
 
 }
