@@ -2,3 +2,8 @@
 #include "MinhaBiblioteca.h"
 
 void numeros(int vetor[], int *maximo, int *minimo, int numElementos){
+//Se o numero de elementos escolhidos para o vetor for 1:
+  if(numElementos == 1){
+    *maximo = vetor[0];
+    *minimo = *maximo;
+  }
