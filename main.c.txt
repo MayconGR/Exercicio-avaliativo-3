@@ -30,6 +30,16 @@ int numElementos, maximo, minimo;
       printf(",");
     }else{
       printf(".\n");
-    } 
+    }
+
+  }
+  //Saída dos valores máximo e mínimo:
+  numeros(vetor, &maximo, &minimo, numElementos);
+  printf("Os valores maximo e minimo sao:\n");
+  printf("Max=%d, Min=%d", maximo, minimo);
+  
+  
+  return 0;
+} 
 
 }
